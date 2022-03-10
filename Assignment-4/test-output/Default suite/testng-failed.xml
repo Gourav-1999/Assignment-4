@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.Test1">
+      <class name="com.test.Test_PracticePage">
         <methods>
-          <include name="swithTabExample"/>
+          <include name="test_swithTabExample"/>
+          <include name="test_selectClassExample"/>
           <include name="launchBrowser"/>
+          <include name="test_swithWindowExample"/>
+          <include name="test_multipleSelect"/>
+          <include name="test_selectRadioButton"/>
+          <include name="test_checkBoxExample"/>
         </methods>
-      </class> <!-- com.test.Test1 -->
+      </class> <!-- com.test.Test_PracticePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,13 @@
+radiobuttonexample:
+   selectradiobutton: "//input[@value=\"car\" and @type=\"radio\"]"
+selectclassexample:
+   clickselectclass: "//*[@id=\"carselect\"]"
+   selectclass: "//option[@value=\"car\"]"
+multipleselectexample:
+   multipleselect: "//*[@id=\"multiple-select-example\"]//option[@value=\"fruit\"]"
+checkboxexample:
+   selectcheckbox: "//*[@value=\"car\" and @type=\"checkbox\"]"
+switchwindowexample:
+   clickwindow: "//*[@id=\"openwindow\"]"
+switchtabexample:
+   clicktab: "//*[@id=\"opentab\"]"

@@ -14,10 +14,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 
 	public static WebDriver driver;
-    propReaderFile read = new propReaderFile();
-	
+   // propReaderFile read = new propReaderFile();
+
+   // Properties pro = read.prop;
 	public void initialization() {
-		String browserName = read.setBrowser();
+		String browserName = propReaderFile.getData("browser");
 		System.out.println(browserName);
 		if(browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -34,7 +35,7 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
-		driver.get(read.setUrl());
+		driver.get(propReaderFile.getData("baseUrl"));
 	}
 	
 }

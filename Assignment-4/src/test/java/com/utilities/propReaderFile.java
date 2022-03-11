@@ -19,9 +19,4 @@ public class propReaderFile {
 		return prop.getProperty(s);
 	}
 	
-	public String setBrowser() {
-		// TODO Auto-generated method stub
-		String browsers=prop.getProperty("browser");
-		return browsers;
-	}
 }

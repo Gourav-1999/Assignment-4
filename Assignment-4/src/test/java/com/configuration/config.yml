@@ -4,7 +4,7 @@ selectclassexample:
    clickselectclass: "//*[@id=\"carselect\"]"
    selectclass: "//option[@value=\"car\"]"
 multipleselectexample:
-   multipleselect: "//*[@id=\"multiple-select-example\"]"
+   multipleselect: "//*[@value=\"fruits\"]"
 checkboxexample:
    selectcheckbox: "//*[@value=\"cars\" and @type=\"checkbox\"]"
 switchwindowexample:
@@ -15,3 +15,19 @@ switchtoalertexample:
    entername: "//*[@id=\"name\" and @type=\"text\"]"
    clickalert: "//*[@value=\"Alert\"]"
    clickconfirm: "//*[@value=\"Confirm\"]"
+webtableexample:
+   table1: "//*[@class=\"table-display\"]//tbody"
+enabledisableexample:
+   enterfield: "//*[@id=\"enabled-example-input\"]"
+   disable: "//*[@value=\"Disable\"]"
+   enable: "//*[@value=\"Enable\"]"
+elementdisplayedexample:
+   writefield: "//*[@name=\"show-hide\"]"
+   hide: "//*[@value=\"Hide\"]"
+   show: "//*[@value=\"Show\"]"
+mousehoverexample:
+   clickmousehover: "//*[@id=\"mousehover\"]"
+   clicktop: "//*[text()=\"Top\"]"
+   clickreload: "//*[text()=\"Reload\"]"
+iframe:
+   clickselectcourse: "//*[text()=\"courses\"]"

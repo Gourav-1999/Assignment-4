@@ -40,4 +40,28 @@ public class Test_PracticePage extends TestBase{
 	public void test_swithTabExample() throws Exception {
 		page.swithTabExample();
 	}
+	@Test(priority = 6)
+	public void test_SwitchToAlertExample() throws Exception {
+		page.switchToAlertExample();
+	}
+	@Test(priority = 7)
+	public void test_WebTableExample() throws Exception {
+		page.webTableExample();
+	}
+	@Test(priority = 8)
+	public void test_EnableDisableExample() throws Exception {
+		page.enableDisableExample();
+	}
+	@Test(priority = 9)
+	public void test_ElementDisplayedExample() throws Exception {
+		page.elementDisplayedExample();
+	}
+	@Test(priority = 10)
+	public void test_MouseHoverExample() throws Exception {
+		page.mousehOverExample();
+	}
+	@Test(priority = 11)
+	public void test_IFrame() throws Exception {
+		page.iframe();
+	}
 }

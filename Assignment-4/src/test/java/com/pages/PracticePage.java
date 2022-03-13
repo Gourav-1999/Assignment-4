@@ -12,14 +12,13 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.test.TestBase;
 import com.utilities.XLUtility;
 import com.utilities.YamlReaderFile;
 import com.utilities.propReaderFile;
+
+import junit.framework.Assert;
 
 public class PracticePage extends TestBase {
 	
@@ -35,19 +34,30 @@ public class PracticePage extends TestBase {
 	}
 	
 	public void selectRadioButton() throws Exception {
-		String xpath=read.getData("radiobuttonexample.selectradiobutton").replace("car", propReaderFile.getData("car3"));
+		String xpath=read.getData("radiobuttonexample.selectradiobutton");
+		WebElement web = driver.findElement(By.xpath(xpath.replace("car", propReaderFile.getData("car3"))));
 		
-		System.out.println(xpath);
-		driver.findElement(By.xpath(xpath)).click();
+		web.click();
+		Assert.assertEquals(true, web.isSelected());
+		System.out.println("Radio button is sellected");
 		
 	}
 	
 	public void selectClassExample() throws Exception {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String xpath1= read.getData("selectclassexample.clickselectclass");
-		driver.findElement(By.xpath(xpath1)).click();
+		WebElement web1 = driver.findElement(By.xpath(xpath1));
+		web1.click();
 		String xpath = read.getData("selectclassexample.selectclass").replace("car", propReaderFile.getData("car2"));
-		driver.findElement(By.xpath(xpath)).click();
+		WebElement web2 = driver.findElement(By.xpath(xpath));
+		web2.click();
+		if(web2.isSelected()) {
+			Assert.assertTrue(true);
+			System.out.println("successfull select class");
+		}else {
+			System.out.println("not successfull select class");
+		}
+		
 	}
 	
 	public void multipleSelect() throws Exception {
@@ -55,8 +65,11 @@ public class PracticePage extends TestBase {
 		String fruit = propReaderFile.getData("fruits");
 		List<String> fruits = Arrays.asList(fruit.split(","));
 		for(String s: fruits) {
-			driver.findElement(By.xpath(xpath.replace("fruits", s))).click();
-			System.out.println(s);
+			WebElement web = driver.findElement(By.xpath(xpath.replace("fruits", s)));
+			web.click();
+			Assert.assertEquals(true, web.isSelected());
+			System.out.println("fruits selected");
+			
 		}
 	}
 	
@@ -66,9 +79,13 @@ public class PracticePage extends TestBase {
 		List<String> cars= Arrays.asList(car.split(","));
 		
 		for(String s: cars) {
-			driver.findElement(By.xpath(xpath.replace("cars", s))).click();
-			System.out.println(s);
+			
+			WebElement web = driver.findElement(By.xpath(xpath.replace("cars", s)));
+			web.click();
+			Assert.assertEquals(true, web.isSelected());
+			System.out.println("check box is selected");
 		}
+		
 	}
 	
 	public void swithWindowExample() throws FileNotFoundException {
@@ -83,11 +100,17 @@ public class PracticePage extends TestBase {
 	      // switching child window
 	      driver.switchTo().window(pw);
 	      System.out.println("Child window title "+ driver.getTitle());
+	      if(driver.getTitle().equals("All Courses")) {
+	    	  Assert.assertTrue(true);
+	      }
 	      // close the child browser window
 	      driver.close();
 	      // switching parent window
 	      driver.switchTo().window(ch);
 	      System.out.println("Parent window title: "+ driver.getTitle());
+	      if(driver.getTitle().equals("Practice Page")) {
+	    	  Assert.assertTrue(true);
+	      }
 	}
 	
 	public void swithTabExample() throws Exception {
@@ -104,11 +127,17 @@ public class PracticePage extends TestBase {
 		  {
 		    driver.switchTo().window(child_window);
 		    System.out.println(driver.switchTo().window(child_window).getTitle());
+		    if(driver.getTitle().equals("All Courses")) {
+		    	  Assert.assertTrue(true);
+		      }
 		    driver.close();
 		  }
 		}
 		driver.switchTo().window(parent);
 		System.out.println(driver.switchTo().window(parent).getTitle());
+		if(driver.getTitle().equals("Practice Page")) {
+	    	  Assert.assertTrue(true);
+	      }
 	}
 	
 	public void switchToAlertExample() throws Exception {

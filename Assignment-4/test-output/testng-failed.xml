@@ -5,8 +5,19 @@
     <classes>
       <class name="com.test.Test_PracticePage">
         <methods>
+          <include name="test_swithTabExample"/>
+          <include name="test_multipleSelect"/>
+          <include name="test_selectRadioButton"/>
+          <include name="test_EnableDisableExample"/>
+          <include name="test_checkBoxExample"/>
           <include name="test_IFrame"/>
+          <include name="test_SwitchToAlertExample"/>
+          <include name="test_selectClassExample"/>
           <include name="launchBrowser"/>
+          <include name="test_swithWindowExample"/>
+          <include name="test_ElementDisplayedExample"/>
+          <include name="test_MouseHoverExample"/>
+          <include name="test_WebTableExample"/>
         </methods>
       </class> <!-- com.test.Test_PracticePage -->
     </classes>

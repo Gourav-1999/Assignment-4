@@ -1,0 +1,13 @@
+2022-03-13 14:17:31,219 - ebanking -INFO - Browser is Opened
+2022-03-13 14:17:48,355 - ebanking -INFO - URL is Opened
+2022-03-13 14:18:09,296 - ebanking -INFO - Select Radio Button Test Passed
+2022-03-13 14:18:09,534 - ebanking -INFO - Select Class Test Passed
+2022-03-13 14:18:09,776 - ebanking -INFO - Multiple Select Test Passed
+2022-03-13 14:18:10,160 - ebanking -INFO - Check Box Test Passed
+2022-03-13 14:18:12,369 - ebanking -INFO - Switch Window Test Passed
+2022-03-13 14:18:19,705 - ebanking -INFO - Switch Tab Test Passed
+2022-03-13 14:18:20,191 - ebanking -INFO - Switch To Alert Test Passed
+2022-03-13 14:18:22,925 - ebanking -INFO - Web Table Test Passed
+2022-03-13 14:18:23,323 - ebanking -INFO - Enable Disable Test Passed
+2022-03-13 14:18:23,733 - ebanking -INFO - Element Disable Test Passed
+2022-03-13 14:18:28,718 - ebanking -INFO - Mouse Hover Test Passed

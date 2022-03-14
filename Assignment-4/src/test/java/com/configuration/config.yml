@@ -30,4 +30,4 @@ mousehoverexample:
    clicktop: "//*[text()=\"Top\"]"
    clickreload: "//*[text()=\"Reload\"]"
 iframe:
-   clickselectcourse: "//*[text()=\"courses\"]"
+   clickselectcourse: "//*[@name=\"categories\"]"

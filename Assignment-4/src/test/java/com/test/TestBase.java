@@ -57,10 +57,10 @@ public class TestBase {
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
 	}
-	public void tearDown() {
-		driver.close();
-		driver.quit();
-	}
+//	public void tearDown() {
+//		driver.close();
+//		driver.quit();
+//	}
 	
 }
 

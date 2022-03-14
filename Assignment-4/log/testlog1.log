@@ -18,3 +18,307 @@
 2022-03-13 15:03:13,288 [main] INFO Practice Page - Enable Disable Test Passed
 2022-03-13 15:03:13,653 [main] INFO Practice Page - Element Disable Test Passed
 2022-03-13 15:03:20,501 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 10:31:31,595 [main] INFO Practice Page - Browser is Opened
+2022-03-14 10:31:36,874 [main] INFO Practice Page - URL is Opened
+2022-03-14 10:31:43,087 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 10:31:43,338 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 10:31:43,561 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 10:31:43,962 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 10:31:48,167 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 10:31:49,862 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 10:31:50,235 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 10:31:53,034 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 10:31:53,447 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 10:31:53,834 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 10:32:03,906 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 10:38:17,035 [main] INFO Practice Page - Browser is Opened
+2022-03-14 10:38:20,482 [main] INFO Practice Page - URL is Opened
+2022-03-14 10:38:30,374 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 10:38:30,635 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 10:38:30,894 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 10:38:31,321 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 10:38:32,351 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 10:44:28,349 [main] INFO Practice Page - Browser is Opened
+2022-03-14 10:44:31,815 [main] INFO Practice Page - URL is Opened
+2022-03-14 10:44:37,677 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 10:44:37,895 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 10:44:38,103 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 10:44:38,484 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 10:44:42,779 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 10:44:45,127 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 10:44:45,586 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 10:44:48,491 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 10:44:48,881 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 10:44:49,297 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 10:44:58,627 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 10:45:28,965 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 10:46:29,780 [main] INFO Practice Page - Browser is Opened
+2022-03-14 10:46:33,179 [main] INFO Practice Page - URL is Opened
+2022-03-14 10:46:38,298 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 10:46:38,533 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 10:46:38,760 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 10:46:39,140 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 10:46:41,062 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 10:46:43,728 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 10:46:44,167 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 10:46:47,055 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 10:46:47,493 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 10:46:47,871 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 10:46:57,808 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 10:47:28,077 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 10:49:21,336 [main] INFO Practice Page - Browser is Opened
+2022-03-14 10:49:24,545 [main] INFO Practice Page - URL is Opened
+2022-03-14 10:49:33,503 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 10:49:33,759 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 10:49:33,986 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 10:49:34,377 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 10:49:35,643 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 10:49:43,019 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 10:49:43,492 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 10:49:46,431 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 10:49:46,838 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 10:49:47,234 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 10:49:52,623 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 10:50:22,914 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 10:51:40,219 [main] INFO Practice Page - Browser is Opened
+2022-03-14 10:51:43,494 [main] INFO Practice Page - URL is Opened
+2022-03-14 10:51:51,883 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 10:51:52,161 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 10:51:52,408 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 10:51:52,788 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 10:51:53,825 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 10:51:59,820 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 10:52:00,298 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 10:52:03,132 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 10:52:03,630 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 10:52:04,039 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 10:52:09,641 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 10:52:39,902 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 11:03:36,235 [main] INFO Practice Page - Browser is Opened
+2022-03-14 11:03:39,530 [main] INFO Practice Page - URL is Opened
+2022-03-14 11:03:44,577 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 11:03:44,847 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 11:03:45,064 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 11:03:45,417 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 11:03:47,550 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 11:03:49,599 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 11:03:50,025 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 11:03:52,840 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 11:03:53,234 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 11:03:53,553 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 11:04:02,816 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 11:09:05,927 [main] INFO Practice Page - Browser is Opened
+2022-03-14 11:09:09,236 [main] INFO Practice Page - URL is Opened
+2022-03-14 11:09:19,391 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 11:09:19,605 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 11:09:20,097 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 11:09:21,191 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 11:09:24,173 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 11:09:24,605 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 11:09:27,535 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 11:09:27,985 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 11:09:28,377 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 11:09:33,705 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 11:24:46,838 [main] INFO Practice Page - Browser is Opened
+2022-03-14 11:24:50,657 [main] INFO Practice Page - URL is Opened
+2022-03-14 11:24:56,183 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 11:24:56,420 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 11:24:56,630 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 11:24:57,043 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 11:24:58,976 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 11:25:00,668 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 11:25:01,125 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 11:25:03,735 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 11:25:04,092 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 11:25:04,417 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 11:32:29,459 [main] INFO Practice Page - Browser is Opened
+2022-03-14 11:32:35,106 [main] INFO Practice Page - URL is Opened
+2022-03-14 11:32:45,425 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 11:32:45,648 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 11:32:45,845 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 11:32:46,248 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 11:32:47,502 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 11:32:53,030 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 11:32:53,408 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 11:32:54,888 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 11:32:55,346 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 11:32:55,806 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 11:33:07,759 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 11:34:51,676 [main] INFO Practice Page - Browser is Opened
+2022-03-14 11:34:55,043 [main] INFO Practice Page - URL is Opened
+2022-03-14 11:35:00,853 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 11:35:01,062 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 11:35:01,318 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 11:35:01,679 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 11:35:04,753 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 11:35:07,311 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 11:35:07,745 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 11:35:11,272 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 11:35:11,843 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 11:35:12,240 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 11:35:28,559 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 11:38:01,321 [main] INFO Practice Page - Browser is Opened
+2022-03-14 11:38:04,701 [main] INFO Practice Page - URL is Opened
+2022-03-14 11:38:14,746 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 11:38:14,992 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 11:38:15,210 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 11:38:15,563 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 11:38:16,783 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 11:38:23,045 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 11:38:23,412 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 12:34:19,953 [main] INFO Practice Page - Browser is Opened
+2022-03-14 12:34:24,834 [main] INFO Practice Page - URL is Opened
+2022-03-14 12:34:35,783 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 12:34:36,020 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 12:34:36,223 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 12:34:36,623 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 12:34:38,506 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 12:34:44,180 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 12:34:44,656 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 12:35:18,779 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 12:35:19,227 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 12:35:30,994 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 12:37:51,116 [main] INFO Practice Page - Browser is Opened
+2022-03-14 12:37:54,117 [main] INFO Practice Page - URL is Opened
+2022-03-14 12:38:02,862 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 12:38:03,118 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 12:38:03,321 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 12:38:03,696 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 12:38:04,639 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 12:38:10,605 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 12:38:11,069 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 12:41:45,262 [main] INFO Practice Page - Browser is Opened
+2022-03-14 12:41:48,287 [main] INFO Practice Page - URL is Opened
+2022-03-14 12:41:57,352 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 12:41:57,588 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 12:41:57,834 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 12:41:58,198 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 12:41:59,117 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 12:42:05,419 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 12:42:05,894 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 12:42:09,455 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 12:42:09,846 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 12:42:10,204 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 12:42:15,853 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 12:44:58,056 [main] INFO Practice Page - Browser is Opened
+2022-03-14 12:45:01,145 [main] INFO Practice Page - URL is Opened
+2022-03-14 12:45:10,361 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 12:45:10,608 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 12:45:10,820 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 12:45:11,233 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 12:45:12,431 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 12:45:18,506 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 12:45:19,018 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 12:45:23,011 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 12:45:23,436 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 12:45:23,833 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 12:45:29,410 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 12:48:24,938 [main] INFO Practice Page - Browser is Opened
+2022-03-14 12:48:28,039 [main] INFO Practice Page - URL is Opened
+2022-03-14 12:48:37,442 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 12:48:37,714 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 12:48:37,929 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 12:48:38,328 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 12:48:39,286 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 12:48:45,557 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 12:48:46,046 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 12:48:49,664 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 12:48:50,072 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 12:48:50,444 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 12:49:20,755 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 12:51:45,574 [main] INFO Practice Page - Browser is Opened
+2022-03-14 12:51:48,487 [main] INFO Practice Page - URL is Opened
+2022-03-14 12:51:58,541 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 12:51:58,757 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 12:51:58,956 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 12:51:59,319 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 12:52:00,270 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 12:52:06,726 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 12:52:07,201 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 12:52:10,627 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 12:52:11,038 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 12:52:11,449 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 12:52:16,490 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 12:52:46,788 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 13:50:59,089 [main] INFO Practice Page - Browser is Opened
+2022-03-14 13:51:04,441 [main] INFO Practice Page - URL is Opened
+2022-03-14 13:51:13,657 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 13:51:13,807 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 13:51:13,943 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 13:51:14,156 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 13:51:15,148 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 13:51:21,118 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 13:51:21,412 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 13:51:23,209 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 13:51:23,441 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 13:51:23,645 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 13:51:29,149 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 13:51:59,346 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 13:53:14,376 [main] INFO Practice Page - Browser is Opened
+2022-03-14 13:53:16,920 [main] INFO Practice Page - URL is Opened
+2022-03-14 13:53:26,644 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 13:53:26,768 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 13:53:26,864 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 13:53:27,047 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 13:53:28,050 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 13:53:34,123 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 13:53:34,413 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 13:53:36,277 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 13:53:36,511 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 13:53:36,705 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 13:53:42,094 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 13:54:12,252 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 13:57:11,781 [main] INFO Practice Page - Browser is Opened
+2022-03-14 13:57:14,323 [main] INFO Practice Page - URL is Opened
+2022-03-14 13:57:19,033 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 13:57:19,153 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 13:57:19,257 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 13:57:19,432 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 13:57:23,164 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 13:57:24,882 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 13:57:25,230 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 13:57:27,195 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 13:57:27,414 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 13:57:27,621 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 13:57:38,133 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 13:58:08,305 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 14:02:54,472 [main] INFO Practice Page - Browser is Opened
+2022-03-14 14:02:56,973 [main] INFO Practice Page - URL is Opened
+2022-03-14 14:03:04,229 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 14:03:04,340 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 14:03:04,443 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 14:03:04,621 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 14:03:09,443 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 14:03:13,729 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 14:03:14,008 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 14:03:15,754 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 14:03:15,969 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 14:03:16,179 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 14:03:26,636 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 14:03:56,820 [main] INFO Practice Page - I Frame Test Passed
+2022-03-14 14:08:23,733 [main] INFO Practice Page - Browser is Opened
+2022-03-14 14:08:26,449 [main] INFO Practice Page - URL is Opened
+2022-03-14 14:08:35,799 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 14:08:35,934 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 14:08:36,044 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 14:08:36,242 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 14:08:37,715 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 14:08:38,898 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 14:08:39,198 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 14:08:40,255 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 14:08:40,464 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 14:08:40,699 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 15:43:24,553 [main] INFO Practice Page - Browser is Opened
+2022-03-14 15:43:30,972 [main] INFO Practice Page - URL is Opened
+2022-03-14 15:43:39,563 [main] INFO Practice Page - Select Radio Button Test Passed
+2022-03-14 15:43:39,812 [main] INFO Practice Page - Select Class Test Passed
+2022-03-14 15:43:40,027 [main] INFO Practice Page - Multiple Select Test Passed
+2022-03-14 15:43:40,412 [main] INFO Practice Page - Check Box Test Passed
+2022-03-14 15:43:41,676 [main] INFO Practice Page - Switch Window Test Passed
+2022-03-14 15:43:47,915 [main] INFO Practice Page - Switch Tab Test Passed
+2022-03-14 15:43:48,409 [main] INFO Practice Page - Switch To Alert Test Passed
+2022-03-14 15:43:51,703 [main] INFO Practice Page - Web Table Test Passed
+2022-03-14 15:43:52,171 [main] INFO Practice Page - Enable Disable Test Passed
+2022-03-14 15:43:52,534 [main] INFO Practice Page - Element Disable Test Passed
+2022-03-14 15:43:58,346 [main] INFO Practice Page - Mouse Hover Test Passed
+2022-03-14 15:44:28,710 [main] INFO Practice Page - I Frame Test Passed

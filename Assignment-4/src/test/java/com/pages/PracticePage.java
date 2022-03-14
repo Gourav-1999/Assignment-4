@@ -1,5 +1,7 @@
 package com.pages;
 
+import static org.testng.Assert.assertTrue;
+
 import java.io.FileNotFoundException;
 import java.time.Duration;
 import java.util.Arrays;
@@ -12,13 +14,15 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import com.test.TestBase;
 import com.utilities.XLUtility;
 import com.utilities.YamlReaderFile;
 import com.utilities.propReaderFile;
 
-import junit.framework.Assert;
+
 
 public class PracticePage extends TestBase {
 	
@@ -36,8 +40,8 @@ public class PracticePage extends TestBase {
 	public void selectRadioButton() throws Exception {
 		String xpath=read.getData("radiobuttonexample.selectradiobutton");
 		WebElement web = driver.findElement(By.xpath(xpath.replace("car", propReaderFile.getData("car3"))));
-		
 		web.click();
+		
 		Assert.assertEquals(true, web.isSelected());
 		System.out.println("Radio button is sellected");
 		
@@ -67,8 +71,13 @@ public class PracticePage extends TestBase {
 		for(String s: fruits) {
 			WebElement web = driver.findElement(By.xpath(xpath.replace("fruits", s)));
 			web.click();
-			Assert.assertEquals(true, web.isSelected());
+			try {
+			Assert.assertTrue(web.isSelected());
 			System.out.println("fruits selected");
+			}catch(AssertionError e) {
+				Assert.fail();
+				System.out.println(e.toString());
+			}
 			
 		}
 	}
@@ -154,20 +163,21 @@ public class PracticePage extends TestBase {
 	
 	public void webTableExample() throws Exception {
 		//write headers in excel sheet
-//		u.setCellData("sheet1", 0, 0, "Author");
-//		u.setCellData("sheet1", 0, 1, "Course");
-//		u.setCellData("sheet1", 0, 2, "Price");
+		u.setCellData("sheet1", 0, 0, "Author");
+		u.setCellData("sheet1", 0, 1, "Course");
+		u.setCellData("sheet1", 0, 2, "Price");
 		
 		//capture table rows
 		String xpath = read.getData("webtableexample.table1");
 		WebElement table = driver.findElement(By.xpath(xpath));
 		int rows = table.findElements(By.xpath("tr")).size();
 		System.out.println(rows);
-		for(int r=2;r<=rows;r++) {
+		for(int r=1;r<rows-1;r++) {
 			//read data from web table
-			String Author = table.findElement(By.xpath("tr["+r+"]//td[1]")).getText();
-			String Course = table.findElement(By.xpath("tr["+r+"]//td[2]")).getText();
-			String Price = table.findElement(By.xpath("tr["+r+"]//td[3]")).getText();
+			int x = r+1;
+			String Author = table.findElement(By.xpath("tr["+x+"]//td[1]")).getText();
+			String Course = table.findElement(By.xpath("tr["+x+"]//td[2]")).getText();
+			String Price = table.findElement(By.xpath("tr["+x+"]//td[3]")).getText();
 			
 			System.out.println(Author+Course+Price);
 			
@@ -188,7 +198,10 @@ public class PracticePage extends TestBase {
 		driver.findElement(By.xpath(xpath2)).click();
 		if (!web.isEnabled()) {
 			driver.findElement(By.xpath(xpath3)).click();
-			web.sendKeys("ustaad");
+			web.clear();
+			if(web.isEnabled()) {
+				web.sendKeys("ustaad");
+			}
 		}
 	}
 	
@@ -239,11 +252,15 @@ public class PracticePage extends TestBase {
 //		driver.findElement(By.xpath(xpath)).click();
 		driver.switchTo().frame("courses-iframe");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-//		JavascriptExecutor js = (JavascriptExecutor) driver;
-//		js.executeScript("window.scrollBy(0,700)", "");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,700)", "");
+		
 		String xpath1= read.getData("iframe.clickselectcourse");
-		driver.findElement(By.xpath(xpath1)).click();
-		String xpath = read.getData("selectclassexample.selectclass").replace("courses", propReaderFile.getData("course"));
-		driver.findElement(By.xpath(xpath)).click();
+		WebElement web = driver.findElement(By.xpath(xpath1));
+		Select s = new Select(web);
+		s.selectByVisibleText("Test Automation");
+//		String xpath = read.getData("selectclassexample.selectclass").replace("courses", propReaderFile.getData("course"));
+//		driver.findElement(By.xpath(xpath)).click();
+		driver.switchTo().parentFrame();
 	}
 }

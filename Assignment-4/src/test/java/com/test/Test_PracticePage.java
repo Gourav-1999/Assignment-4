@@ -1,5 +1,6 @@
 package com.test;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -15,6 +16,10 @@ public class Test_PracticePage extends TestBase{
 		
 		t.initialization();
 
+	}
+	@AfterTest
+	public void closeBrowser() {
+		t.tearDown();
 	}
 	@Test(priority = 0)
 	public void test_selectRadioButton() throws Exception {
@@ -71,9 +76,9 @@ public class Test_PracticePage extends TestBase{
 		page.mousehOverExample();
 		logger.info("Mouse Hover Test Passed");
 	}
-	@Test(priority = 11)
-	public void test_IFrame() throws Exception {
-		page.iframe();
-		logger.info("I Frame Test Passed");
-	}
+//	@Test(priority = 11)
+//	public void test_IFrame() throws Exception {
+//		page.iframe();
+//		logger.info("I Frame Test Passed");
+//	}
 }

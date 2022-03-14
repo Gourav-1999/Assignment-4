@@ -1,13 +1,20 @@
-2022-03-13 14:17:31,219 - ebanking -INFO - Browser is Opened
-2022-03-13 14:17:48,355 - ebanking -INFO - URL is Opened
-2022-03-13 14:18:09,296 - ebanking -INFO - Select Radio Button Test Passed
-2022-03-13 14:18:09,534 - ebanking -INFO - Select Class Test Passed
-2022-03-13 14:18:09,776 - ebanking -INFO - Multiple Select Test Passed
-2022-03-13 14:18:10,160 - ebanking -INFO - Check Box Test Passed
-2022-03-13 14:18:12,369 - ebanking -INFO - Switch Window Test Passed
-2022-03-13 14:18:19,705 - ebanking -INFO - Switch Tab Test Passed
-2022-03-13 14:18:20,191 - ebanking -INFO - Switch To Alert Test Passed
-2022-03-13 14:18:22,925 - ebanking -INFO - Web Table Test Passed
-2022-03-13 14:18:23,323 - ebanking -INFO - Enable Disable Test Passed
-2022-03-13 14:18:23,733 - ebanking -INFO - Element Disable Test Passed
-2022-03-13 14:18:28,718 - ebanking -INFO - Mouse Hover Test Passed
+2022-03-13 15:02:01,345 - Practice Page -INFO - Browser is Opened
+2022-03-13 15:02:04,519 - Practice Page -INFO - URL is Opened
+2022-03-13 15:02:10,509 - Practice Page -INFO - Select Radio Button Test Passed
+2022-03-13 15:02:10,743 - Practice Page -INFO - Select Class Test Passed
+2022-03-13 15:02:10,954 - Practice Page -INFO - Multiple Select Test Passed
+2022-03-13 15:02:11,274 - Practice Page -INFO - Check Box Test Passed
+2022-03-13 15:02:17,969 - Practice Page -INFO - Switch Window Test Passed
+2022-03-13 15:02:37,210 - Practice Page -INFO - Browser is Opened
+2022-03-13 15:02:40,476 - Practice Page -INFO - URL is Opened
+2022-03-13 15:03:00,772 - Practice Page -INFO - Select Radio Button Test Passed
+2022-03-13 15:03:01,021 - Practice Page -INFO - Select Class Test Passed
+2022-03-13 15:03:01,216 - Practice Page -INFO - Multiple Select Test Passed
+2022-03-13 15:03:01,624 - Practice Page -INFO - Check Box Test Passed
+2022-03-13 15:03:02,760 - Practice Page -INFO - Switch Window Test Passed
+2022-03-13 15:03:09,640 - Practice Page -INFO - Switch Tab Test Passed
+2022-03-13 15:03:10,166 - Practice Page -INFO - Switch To Alert Test Passed
+2022-03-13 15:03:12,906 - Practice Page -INFO - Web Table Test Passed
+2022-03-13 15:03:13,288 - Practice Page -INFO - Enable Disable Test Passed
+2022-03-13 15:03:13,653 - Practice Page -INFO - Element Disable Test Passed
+2022-03-13 15:03:20,501 - Practice Page -INFO - Mouse Hover Test Passed

@@ -26,7 +26,7 @@ public class TestBase {
 
    // Properties pro = read.prop;
 	public void initialization() {
-		logger = Logger.getLogger("ebanking");
+		logger = Logger.getLogger("Practice Page");
 		PropertyConfigurator.configure("Log4j.properties");
 		logger.info("Browser is Opened");
 		String browserName = propReaderFile.getData("browser");
@@ -56,6 +56,10 @@ public class TestBase {
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+	}
+	public void tearDown() {
+		driver.close();
+		driver.quit();
 	}
 	
 }

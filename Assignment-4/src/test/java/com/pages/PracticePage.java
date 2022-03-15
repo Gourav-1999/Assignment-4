@@ -1,7 +1,5 @@
 package com.pages;
 
-import static org.testng.Assert.assertTrue;
-
 import java.io.FileNotFoundException;
 import java.time.Duration;
 import java.util.Arrays;
@@ -65,11 +63,11 @@ public class PracticePage extends TestBase {
 	}
 	
 	public void multipleSelect() throws Exception {
-		String xpath = read.getData("multipleselectexample.multipleselect");
+		String css = read.getData("multipleselectexample.multipleselect");
 		String fruit = propReaderFile.getData("fruits");
 		List<String> fruits = Arrays.asList(fruit.split(","));
 		for(String s: fruits) {
-			WebElement web = driver.findElement(By.xpath(xpath.replace("fruits", s)));
+			WebElement web = driver.findElement(By.cssSelector(css.replace("fruits", s)));
 			web.click();
 			try {
 			Assert.assertTrue(web.isSelected());
@@ -98,8 +96,8 @@ public class PracticePage extends TestBase {
 	}
 	
 	public void swithWindowExample() throws FileNotFoundException {
-		String xpath = read.getData("switchwindowexample.clickwindow");
-		driver.findElement(By.xpath(xpath)).click();
+		String css = read.getData("switchwindowexample.clickwindow");
+		driver.findElement(By.cssSelector(css)).click();
 		 // window handles
 	      Set w = driver.getWindowHandles();
 	      // window handles iterate
@@ -255,8 +253,8 @@ public class PracticePage extends TestBase {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,700)", "");
 		
-		String xpath1= read.getData("iframe.clickselectcourse");
-		WebElement web = driver.findElement(By.xpath(xpath1));
+		String css= read.getData("iframe.clickselectcourse");
+		WebElement web = driver.findElement(By.cssSelector(css));
 		Select s = new Select(web);
 		s.selectByVisibleText("Test Automation");
 //		String xpath = read.getData("selectclassexample.selectclass").replace("courses", propReaderFile.getData("course"));

@@ -4,11 +4,11 @@ selectclassexample:
    clickselectclass: "//*[@id=\"carselect\"]"
    selectclass: "//option[@value=\"car\"]"
 multipleselectexample:
-   multipleselect: "//*[@value=\"fruits\"]"
+   multipleselect: "option[value=fruits]"
 checkboxexample:
    selectcheckbox: "//*[@value=\"cars\" and @type=\"checkbox\"]"
 switchwindowexample:
-   clickwindow: "//*[@id=\"openwindow\"]"
+   clickwindow: "*[id=openwindow]"
 switchtabexample:
    clicktab: "//*[@id=\"opentab\"]"
 switchtoalertexample:
@@ -30,4 +30,4 @@ mousehoverexample:
    clicktop: "//*[text()=\"Top\"]"
    clickreload: "//*[text()=\"Reload\"]"
 iframe:
-   clickselectcourse: "//*[@name=\"categories\"]"
+   clickselectcourse: "*[name=categories]"
